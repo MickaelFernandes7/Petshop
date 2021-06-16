@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary & Gabi Petshop</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            <img src="img/logo-mari-e-gabi-petshop.svg" alt="Logo Mary & Gabi Petshop">
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+
+        </ul>
+    </nav>
+
+    <article class="fundo-verde">
+
+        <div class="container flex-container">
+
+            <div class="col">
+                <h2> Sobre nós</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio libero iste laudantium tempora
+                    sed quos ullam at nostrum mollitia alias, qui adipisci dolorum, omnis corporis nesciunt autem
+                    doloremque aliquid ut!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi neque rerum iure. Aliquam, amet
+                    dolorem, ducimus ex quas aspernatur voluptate cumque, saepe nihil facilis laborum quis consequuntur
+                    odit corporis magni.</p>
+            </div>
+
+            <div class="col">
+                <img src="img/img-sobre.jpg" alt="">
+            </div>
+
+        </div>
+        <!--Fechamento container-->
+
+    </article>
+
+    <article id="produtos">
+        <div class="container">
+            <h2 class="texto-centralizado">Produtos</h2>
+            <p class="texto-centralizado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias velit maiores
+                atque beatae nulla ullam molestiae cum officia corrupti, veritatis, repellendus temporibus aut debitis
+                iusto? Ab nobis iusto ad. Quibusdam?</p>
+
+            <div class="flex-container">
+                <article class="produto">
+                    <figure>
+                        <img src="img/produto-1.jpg" alt="Produto Pet 1">
+                    </figure>
+                    <h3>Pet Produto #1</h3>
+                    <p>R$ 150,00</p>
+                    <a href="#" class="btn-pata">
+                        <img src="img/patinha-preta.png" alt="Patinha preta">
+                        Comprar
+                    </a>
+                </article>
+                <article class="produto">
+                    <figure>
+                        <img src="img/produto-2.jpg" alt="Produto Pet 2">
+                    </figure>
+                    <h3>Pet Produto #2</h3>
+                    <p>R$ 150,00</p>
+                    <a href="#" class="btn-pata">
+                        <img src="img/patinha-preta.png" alt="Patinha preta">
+                        Comprar
+                    </a>
+                </article>
+                <article class="produto">
+                    <figure>
+                        <img src="img/produto-3.jpg" alt="Produto Pet 2">
+                    </figure>
+                    <h3>Pet Produto #3</h3>
+                    <p>R$ 150,00</p>
+                    <a href="#" class="btn-pata">
+                        <img src="img/patinha-preta.png" alt="Patinha preta">
+                        Comprar
+                    </a>
+                </article>
+               
+            </div>
+        </div>
+    </article>
+
+    <article class="fundo-verde" id="servicos">
+        <div class="container flex-container">
+            <div class="col">
+                <h2>Serviços</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sequi ea modi recusandae iste ab ut, labore corrupti nobis! Perspiciatis error adipisci necessitatibus. Pariatur ea magnam quos nostrum soluta voluptatibus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nesciunt rerum praesentium reiciendis vel enim reprehenderit ipsum necessitatibus laboriosam assumenda animi saepe error at natus ea, temporibus odio adipisci mollitia!</p>
+            </div>
+            <div class="col">
+                <img src="img/img-galeria-1.jpg" alt="">
+                <img src="img/img-galeria-2.jpg" alt="">
+                <img src="img/img-galeria-3.jpg" alt="">
+                <img src="img/img-galeria-4.jpg" alt="">
+            </div>
+        </div>
+
+    </article>
+
+    <article id="contato">
+        <div class="container">
+            <div class="texto-centralizado">
+                <h2>Contato</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus vitae dolorum veniam quae accusamus dolor voluptatibus ipsam, voluptatem aut saepe quidem aliquid eius iusto praesentium quasi doloribus pariatur nobis explicabo.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque porro quibusdam id assumenda exercitationem perferendis vero facilis commodi iure, ipsum molestias rerum eos! Iusto unde odit aspernatur reprehenderit sequi neque!</p>
+            </div>
+            <div class="flex-container">
+                <div class="col">
+                    <!-- Form -->
+                    <form>
+                        <label for="">
+                            <strong>Nome</strong>
+                            <input type="text" id="nome" placeholder="Insira o seu nome completo" />
+                        </label>
+                        <label for="">
+                            <strong>E-mail</strong> 
+                            <input type="email" id="email" placeholder="exemplo@teste.com.br" />
+                        </label>
+                        <label for="">
+                            <strong>Telefone</strong>
+                            <input type="tel" id="telefone" placeholder="(11)0000-0000" />
+                        </label>
+                        <label for="">
+                            <strong>Assunto</strong>
+                            <input type="text" id="assunto" placeholder="Insira Aqui Sua Mensagem" />
+                        </label>
+                        <label for="">
+                            <strong>Mensagem</strong>
+                            <input type="text" id="mensagem" placeholder="Insira Aqui Sua Mensagem" />
+                        </label>
+
+                        <a href="#" class="btn-pata">
+                            <img src="img/patinha-preta.png" alt="Patinha preta">
+                            Enviar
+                        </a>
+                        
+                    </form>
+                </div>
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.1409199126197!2d-46.75764768547755!3d-23.670917984628577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce522dd0c3b7ad%3A0x31c63d4e5b9a69a7!2sRua%20Jos%C3%A9%20Ant%C3%B4nio%20dos%20Santos%20-%20Jardim%20Boa%20Vista%20(Zona%20Sul)%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005834-120!5e0!3m2!1spt-BR!2sbr!4v1621904063486!5m2!1spt-BR!2sbr" width="440" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <strong><p>Endereço: R. José Antonio dos Santos, 603. <br> Jardim Thomaz, São Paulo - SP <br> CEP:05834-120 <br> TEL: (11) 98384-5223</p></strong>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+       <hr>
+        <p id="textfooter" class="texto-centralizado">Copyright ₢2021 <strong>Mary & Gaby</strong> Todos os Direitos Reservados</p>
+    </footer>
+
+</body>
+
+</html>
